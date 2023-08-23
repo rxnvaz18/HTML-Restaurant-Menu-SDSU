@@ -16,7 +16,9 @@ p,
 li {
     color: green;
 }
-
+ul {
+    list-style-type: none;
+}
 img {
     width: 100%;
     height: auto;
@@ -65,6 +67,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
